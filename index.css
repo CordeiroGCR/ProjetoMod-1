@@ -1,0 +1,212 @@
+
+#bory {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background: linear-gradient(180deg, rgba(12,112,241,0.5)29%,
+    rgba(12, 112, 242, 0)35%) #303030;
+    border: 1px solid #BABABA
+}
+
+#principal {
+    display: flex;
+    justify-content:space-between;
+    background-color:#303030 ;
+    align-items: center;
+    height: 85px;
+    width: 100%;           
+}
+
+#menu {
+    display: flex;
+    width: 45%;
+   justify-content:space-around;
+   margin-left:10px;
+}
+
+#principal div a{
+    font-family:'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 10px;
+    text-decoration: none;
+    color: #ffff;    
+}
+
+#principal button{
+    margin-right:5%;
+    background-color:#0C70F2;
+    box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
+    width: 80px;
+    height: 39px;
+    border: 0;
+    font-family:'Inter', sans-serif;
+    font-size:20px;
+    font-weight: 500;
+    color:white;
+}
+
+section{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    text-transform: uppercase;
+    font-family:'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 97px;
+    color: white;
+}
+
+header h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.invert {
+    background-color:#303030 ;
+}
+
+form{
+    color: white;
+    font-size:20px;
+    font-family:'Inter', sans-serif; 
+    font-weight: 400;
+    width: 600px;  
+}
+
+form .form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-group input{
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"]{
+    transform: scale(1.7);
+}
+
+.checkbox-itens{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input[type="submit"]{
+    background-color: rgba(12, 112, 242, 0.9);
+    width:100%;
+    height:56px;
+    font-size: 32px;
+    color:white;
+    margin-top:100px;
+    box-shadow: 0px 3px 2px rgba(10, 93, 202, 0.9);
+    cursor:pointer;
+    border-radius: 10px;
+    border: 0;
+}
+
+footer {
+    width:100%;
+    background-color:#0C70F2;
+    margin-top: 150px;
+}
+
+.linha1{
+    display: flex;
+    justify-content:space-around;
+}
+
+.linha1 h5 {
+    font-family:'Inter', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.h5{
+   padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: #303030;
+}
+
+.endereco {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family:'Inter', sans-serif;
+    color: white;
+}
+
+.linha1 ul{
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:'Inter', sans-serif ;
+    font-size: 20px;
+    list-style: none;
+}
+
+footer ul li{            
+    text-align: center;
+    color:white;
+    font-weight: 400;
+    font-size: 18px;  
+    font-family: var(--fonte-padrao);
+
+    margin:20px 0px 20px 0px;
+}
+
+footer ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    color:grey;}
+.linha2{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   bottom: 30px;
+}
+
+.linha2 a{
+    font-family:'Inter', sans-serif ;
+    font-style:normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+footer .linha2 a:first-child{
+    border-right: 3px solid white;
+} 
